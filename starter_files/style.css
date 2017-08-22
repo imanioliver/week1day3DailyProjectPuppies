@@ -1,0 +1,146 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+
+*/
+body{
+    font-family: 'Helvetica', serif;
+    line-height: 1.6;
+    /*font-size: 0.9em;
+    font-style: normal;
+    background-color: #e0d2be;
+    background-image: url("./images/project-images/product-2.jpg" alt="product 2")*/
+}
+
+html {
+
+
+    border-left: solid;
+    border-bottom: solid;
+    border-width: thin;
+    border-color: #046c97;
+}
+
+hr {
+    border-width: thin;
+    height: 2px;
+    color: #eee;
+    background-color: #eee;
+}
+header {
+    background-color: #ff8523;
+
+    /*margin-bottom: : %;*/
+}
+
+
+h2 , h3{
+    color: #1fabe5;
+}
+
+ul {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+
+table {
+        background-color: #1fabe5;
+}
+
+thead tr {
+    color: white;
+    background-color: #1fabe5;
+    padding: 5%;
+    border: solid;
+    border-width: thin;
+    height: 50px;
+    /*border-color: #046c97;*/
+
+}
+
+.dark_blue {
+    border: solid;
+    border-color: blue;
+}
+
+tr {
+    border: solid;
+    border-width: thin;
+    background-color: white;
+}
+
+
+.gray_section {
+    background-color: lightgray;
+    padding: 2%;
+}
+
+.name {
+    background-color: #ff8523;
+    color: white;
+    padding: 3%;
+    border-radius: 5px;
+}
+.city_container {
+    padding-top: 2%;
+}
+
+.submit_button {
+    background-color: #1fabe5;
+
+}
+
+
+#first_name{
+    height: 20px;
+    width: 30%;
+}
+
+#last_name {
+    height: 20px;
+    width: 30%;
+}
+
+textarea {
+    width: 100%;
+    border: #1fabe5;
+    padding: 1%;
+}
+
+td img {
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-color: white;
+    border-width: 20px;
+}
+
+
+button {
+    color: blue;
+    background-color: blue;
+}
+
+ nav a {
+    color: white;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 3%;
+    border-radius: 5px;
+}
